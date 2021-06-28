@@ -6,7 +6,7 @@
 .img-wish-dragon-1{
 	position: absolute;
 	bottom:0px;
-	right: 0px;
+	right: -100px;
 	width: 300px;
 	animation: dragon 5s infinite;
 }
@@ -20,7 +20,7 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 200px;
+	width: 100px;
 	animation: dragonfly 5s infinite;
 }
 
@@ -33,37 +33,41 @@
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
+	width: 500px;
 	animation: flyenemy 10s infinite;
 }
 
 @keyframes flyenemy{
 	0% {left: 0px; transform: rotate(0deg);}
-	50% {left: 700px; transform: rotate(360deg);}
+	50% {left: 400px; transform: rotate(360deg);}
 }
 
 .wish-fight{
 	position: absolute;
 	bottom: 0px;
 	right: 100px;
+	width: 500px;
 	animation: wish-fight 10s infinite;
 }
 
 @keyframes wish-fight{
 	from{right: 0px;}
-	to{right: 600px;}
+	to{right: 300px;}
 
 }
 
 .friendship{
 	position: absolute;
-	top: 500px;
+	top: 200px;
 	left: 0px;
+	width: 300px;
 }
 
 .kite{
     position: absolute;
-    top: 170px;
-    left: 295px;
+    top: 100px;
+    left: 180px;
+    width: 200px;
     animation: kite 1s infinite;
 }
 
@@ -75,6 +79,7 @@
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	width: 500px;
 	animation: dragon-dance 10s infinite;
 }
 
