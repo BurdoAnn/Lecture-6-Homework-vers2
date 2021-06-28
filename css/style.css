@@ -5,7 +5,6 @@
 
 .img-wish-dragon-1{
 	position: absolute;
-	width: 500px;
 	bottom:0px;
 	right: 0px;
 	width: 300px;
@@ -34,7 +33,6 @@
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
-	width: 1000px;
 	animation: flyenemy 10s infinite;
 }
 
@@ -60,14 +58,12 @@
 	position: absolute;
 	top: 500px;
 	left: 0px;
-	width: 500px;
 }
 
 .kite{
     position: absolute;
     top: 170px;
     left: 295px;
-    width: 500px;
     animation: kite 1s infinite;
 }
 
@@ -80,7 +76,6 @@
 	top: 0px;
 	right: 0px;
 	animation: dragon-dance 10s infinite;
-	width: 1000px;
 }
 
 
