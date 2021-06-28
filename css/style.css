@@ -1,0 +1,91 @@
+.b-img-wish-dragon{
+	position: relative;
+	width: 100%;
+}
+
+.img-wish-dragon-1{
+	position: absolute;
+	width: 500px;
+	bottom:0px;
+	right: 0px;
+	width: 300px;
+	animation: dragon 5s infinite;
+}
+
+@keyframes dragon{
+	from {bottom: 0px;}
+	to {bottom: 200px}
+}
+
+.img-wish-dragon-2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	animation: dragonfly 5s infinite;
+}
+
+@keyframes dragonfly{
+	from{top: 100px;}
+	to{top: 0px;}
+}
+
+.flyenemy{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 1000px;
+	animation: flyenemy 10s infinite;
+}
+
+@keyframes flyenemy{
+	0% {left: 0px; transform: rotate(0deg);}
+	50% {left: 700px; transform: rotate(360deg);}
+}
+
+.wish-fight{
+	position: absolute;
+	bottom: 0px;
+	right: 100px;
+	animation: wish-fight 10s infinite;
+}
+
+@keyframes wish-fight{
+	from{right: 0px;}
+	to{right: 600px;}
+
+}
+
+.friendship{
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	width: 500px;
+}
+
+.kite{
+    position: absolute;
+    top: 170px;
+    left: 295px;
+    width: 500px;
+    animation: kite 1s infinite;
+}
+
+@keyframes kite{
+	1%{right: 5px; transform: rotate(5deg);}
+}
+
+.dragon-dance{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	animation: dragon-dance 10s infinite;
+	width: 1000px;
+}
+
+
+@keyframes dragon-dance{
+	from{right: 0px;}
+	to{right: 100px;}
+
+}
